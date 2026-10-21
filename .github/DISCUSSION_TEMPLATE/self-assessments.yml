@@ -1,0 +1,83 @@
+title: "[Self-assessment] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share where you landed. Levels and reflections only: please leave out confidential work, client or patient details, and other sensitive data.
+  - type: input
+    id: profession
+    attributes:
+      label: Your profession or role
+      placeholder: e.g. teacher, nurse practitioner, attorney, designer
+    validations:
+      required: true
+  - type: dropdown
+    id: dok
+    attributes:
+      label: Cognitive Complexity (DOK)
+      options:
+        - "DOK 1: recall and reproduction"
+        - "DOK 2: skills and concepts"
+        - "DOK 3: strategic thinking"
+        - "DOK 4: extended thinking"
+    validations:
+      required: true
+  - type: dropdown
+    id: ways-of-working
+    attributes:
+      label: Ways of Working
+      options:
+        - Not Yet
+        - Occasional
+        - Integrated
+        - Embedded
+        - Orchestrated
+    validations:
+      required: true
+  - type: dropdown
+    id: delegation-trust
+    attributes:
+      label: Delegation Trust
+      options:
+        - Solo
+        - Duet
+        - Ensemble
+        - Chamber
+        - Symphony
+        - Virtuoso
+    validations:
+      required: true
+  - type: dropdown
+    id: zone
+    attributes:
+      label: Zone
+      options:
+        - Frontier
+        - Growing
+        - Bottlenecked
+        - Thinking Ahead
+        - Underutilizing
+        - Overpowered
+        - Efficient Executor
+        - Not sure
+    validations:
+      required: false
+  - type: dropdown
+    id: source
+    attributes:
+      label: How you got your result
+      options:
+        - Snapshot prompt in ChatGPT
+        - Snapshot prompt in Claude
+        - Snapshot prompt in another assistant
+        - rp-why in goose
+        - Self-assessment from the talk
+    validations:
+      required: false
+  - type: textarea
+    id: surprised
+    attributes:
+      label: What surprised you?
+    validations:
+      required: false
