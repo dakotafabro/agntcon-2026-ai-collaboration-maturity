@@ -7,6 +7,8 @@ Most AI maturity models measure how advanced your tools are. This talk looks at 
 > [!NOTE]
 > Questions don't need to wait for the end of the talk. Post them in [Discussions](../../discussions) during or after, in the room or on the livestream. Dakota answers there after the talk, and attendees are welcome to answer and discuss with each other.
 
+**Slides:** [agntcon.dakotafabro.dev](https://agntcon.dakotafabro.dev)
+
 ## Take your snapshot
 
 Paste the [snapshot prompt](snapshot-prompt.md) into ChatGPT or Claude with chat history turned on. It reads your last 3 months of conversations and places you on each dimension, with one growth nudge for your profession.
