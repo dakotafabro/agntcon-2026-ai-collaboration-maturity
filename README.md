@@ -11,7 +11,7 @@ Most AI maturity models measure how advanced your tools are. This talk looks at 
 
 Paste the [snapshot prompt](snapshot-prompt.md) into ChatGPT or Claude with chat history turned on. It reads your last 3 months of conversations and places you on each dimension, with one growth nudge for your profession.
 
-Using goose? [rp-why](https://github.com/dakotafabro/rp-why) measures your goose sessions directly: `/rp-why current`, `/rp-why baseline` (last 3 months) and `/rp-why compare`.
+Using goose? [rp-why](https://github.com/dakotafabro/rp-why) measures your goose sessions directly: `/rp-why current`, `/rp-why baseline` (all your goose history) and `/rp-why compare`.
 
 ## Discussions
 
