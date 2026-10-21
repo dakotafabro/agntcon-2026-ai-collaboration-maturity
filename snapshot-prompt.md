@@ -41,7 +41,7 @@ What to look for:
 1. Cognitive Complexity (Webb's Depth of Knowledge): what depth of cognition do I show in my messages? And in our conversation?
    - DOK 1: reproduction and recall - recall facts, definitions, lookups
    - DOK 2: skills and concepts - applying a concept, drafting, working a specific problem
-   - DOK 3: strategic reasoning - weighing trade-offs, comparing approaches, strategic decisions
+   - DOK 3: strategic thinking - weighing trade-offs, comparing approaches, strategic decisions
    - DOK 4: extended thinking - synthesis across sources, building frameworks, extended investigation
 2. Delegation Trust (the Orchestra Model): how much I hand over and how I
    manage it.
