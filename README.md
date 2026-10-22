@@ -17,9 +17,14 @@ Using goose? [rp-why](https://github.com/dakotafabro/rp-why) measures your goose
 
 ## Discussions
 
-- **Questions:** ask anything from the talk. Anyone can answer; answers can be marked.
-- **Discussion:** one thread per section of the talk, for conversation and ideas.
-- **Self-assessments:** share where you landed and what surprised you. The form asks for levels and reflections, not your work.
+- **[Ask Me Anything](https://github.com/dakotafabro/agntcon-2026-ai-collaboration-maturity/discussions/1):** ask anything from the talk. Anyone can answer; answers can be marked.
+- **[Idea Share](https://github.com/dakotafabro/agntcon-2026-ai-collaboration-maturity/discussions/3):** want to collaborate or get feedback? Start here.
+- **[Self-Assessment Shareout](https://github.com/dakotafabro/agntcon-2026-ai-collaboration-maturity/discussions/2):** share where you landed and what surprised you.
+- **Add to the discourse,** one thread per question:
+  - [What else should AI practitioners consider?](https://github.com/dakotafabro/agntcon-2026-ai-collaboration-maturity/discussions/4)
+  - [Where do you agree?](https://github.com/dakotafabro/agntcon-2026-ai-collaboration-maturity/discussions/5)
+  - [Where does it push your thinking?](https://github.com/dakotafabro/agntcon-2026-ai-collaboration-maturity/discussions/6)
+  - [What would you add or take away from the framework presented?](https://github.com/dakotafabro/agntcon-2026-ai-collaboration-maturity/discussions/7)
 
 Posts show your GitHub username. Share only what you're comfortable having public.
 
@@ -32,11 +37,11 @@ Posts show your GitHub username. Share only what you're comfortable having publi
 - DOK 3: strategic thinking
 - DOK 4: extended thinking
 
-**Ways of Working:** how AI fits into your work. Not Yet, Occasional, Integrated, Embedded, Orchestrated. Each level has a fit question: is this level right for the work?
+**Ways of Working** (Tool Maturity): how AI fits into your work. Not Yet, Occasional, Integrated, Embedded, Orchestrated. At every level, Tool Maturity asks one question: does the tool fit your skill and the task?
 
-**Delegation Trust** (the Orchestra Model): how much autonomy you grant AI, and how skillfully you manage it. Solo, Duet, Ensemble, Chamber, Symphony, Virtuoso.
+**Agentic Delegation Trust** (the Orchestra Model): how much autonomy you grant AI, and how skillfully you manage it. Solo, Duet, Ensemble, Chamber, Symphony, Virtuoso.
 
-**Zones** come from how the three line up: Frontier, Growing, Bottlenecked, Thinking Ahead, Underutilizing, Overpowered, Efficient Executor.
+**Zones** come from where Cognitive Complexity and Agentic Delegation Trust meet: Frontier, Growing, Expected, Thinking Ahead, Underutilizing, Overpowered. One more to consider: high trust at DOK 2 when short prompts carry a lot, which rp-why calls Leveraging.
 
 </details>
 
@@ -45,19 +50,17 @@ Posts show your GitHub username. Share only what you're comfortable having publi
 
 rp-why and the talk describe the same framework with some different names. Source: [`scripts/rp_why_core.py`](https://github.com/dakotafabro/rp-why/blob/01ccc9e/scripts/rp_why_core.py) at `01ccc9e`.
 
-- **"TM tier" (Solo to Virtuoso)** in rp-why is the talk's **Delegation Trust** level. rp-why estimates it from session behavior: sub-agents, number of tools and prompt count.
+- **"TM tier" (Solo to Virtuoso)** in rp-why is the talk's **Agentic Delegation Trust** level. rp-why estimates it from session behavior: sub-agents, number of tools and prompt count.
 - **rp-why has no Ways of Working question.** The snapshot prompt asks it.
-- **Zones:** rp-why computes them from DOK and the tier only.
-  - **Frontier, Thinking Ahead, Overpowered:** close to the talk's meaning.
-  - **Underutilizing:** in rp-why, the highest tiers used for DOK 2 work. In the talk, low DOK with low trust.
-  - **Growing:** in rp-why, one cell of the DOK and tier grid. In the talk, building on all three dimensions.
-  - **Expected, Leveraging:** rp-why only. Leveraging is the high-tier, DOK 2 profile with compression of 10% or more: complexity that lives in the configuration.
-  - **Bottlenecked, Efficient Executor:** talk only.
+- **Zones:** the talk uses rp-why's grid of DOK and the tier.
+  - **Leveraging:** rp-why's name for the high-tier, DOK 2 profile with compression of 10% or more: complexity that lives in the configuration. The talk calls it out as something to consider.
 
 </details>
 
 ## Related
 
+- [Slides](https://agntcon.dakotafabro.dev)
 - [rp-why](https://github.com/dakotafabro/rp-why): the goose skill this framework started as
 - [dakotafabro.dev](https://dakotafabro.dev)
+- [usebpm.dev](https://usebpm.dev): the package manager rp-why installs from
 - [LinkedIn](https://linkedin.com/in/dakotafabro)

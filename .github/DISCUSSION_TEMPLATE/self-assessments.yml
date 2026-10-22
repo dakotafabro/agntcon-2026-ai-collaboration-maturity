@@ -38,7 +38,7 @@ body:
   - type: dropdown
     id: delegation-trust
     attributes:
-      label: Delegation Trust
+      label: Agentic Delegation Trust
       options:
         - Solo
         - Duet
@@ -55,11 +55,11 @@ body:
       options:
         - Frontier
         - Growing
-        - Bottlenecked
+        - Expected
+        - Leveraging
         - Thinking Ahead
         - Underutilizing
         - Overpowered
-        - Efficient Executor
         - Not sure
     validations:
       required: false

@@ -43,7 +43,7 @@ What to look for:
    - DOK 2: skills and concepts - applying a concept, drafting, working a specific problem
    - DOK 3: strategic thinking - weighing trade-offs, comparing approaches, strategic decisions
    - DOK 4: extended thinking - synthesis across sources, building frameworks, extended investigation
-2. Delegation Trust (the Orchestra Model): how much I hand over and how I
+2. Agentic Delegation Trust (the Orchestra Model): how much I hand over and how I
    manage it.
    - Solo: I do all the work; you check it
    - Duet: back and forth; I prompt, you respond, I edit, I prompt again
@@ -53,25 +53,38 @@ What to look for:
    - Virtuoso: my work and yours have become one practice
    Signals: how often I correct you ("no, I meant..."), whether short
    prompts from me produce a lot, and how often I accept a first answer.
-3. Ways of Working: how AI fits into my work and/or thinking process (Not Yet, Occasional,
+3. Ways of Working (Tool Maturity): how AI fits into my work and/or thinking process (Not Yet, Occasional,
    Integrated, Embedded, Orchestrated). Provide your best read from our chats.
+   Then read Tool Maturity: how well the tool fits my skill and the task.
+   Signals: whether the depth of what I ask matches the depth of what you
+   deliver, and how often I have to correct you before an answer is usable.
+   Say whether the tool looks overpowered for my tasks, matched, or
+   underpowered for them.
    After the analysis, ask me one question: across all the AI tools I use,
    which of these five describes how AI fits into my work? Use my answer
-   for this dimension.
+   for Ways of Working.
 
 Then, place me in one zone:
-Here "deep thinking" means mostly DOK 3 or 4, and "high trust" means
-Chamber or above.
-- Frontier: deep thinking, high trust, work that lasts
-- Growing: building on all three, without a large gap between them
-- Bottlenecked: deep thinking, low trust; I won't let go and review every word
-- Thinking Ahead: deep thinking, but how I use AI is behind my thinking
-- Underutilizing: mostly DOK 1 or 2, low trust; powerful tools used lightly
-- Overpowered: mostly DOK 1 or 2, high trust, little that lasts
-- Efficient Executor: mostly DOK 2, high trust, lots of output that is mostly short-lived
-If my Ways of Working (from my answer) and my Delegation Trust are two or
-more steps apart, say so: high adoption with low trust points toward
-Bottlenecked, and high trust with low adoption toward Thinking Ahead.
+Use my Cognitive Complexity and my Agentic Delegation Trust:
+- Depth: "low" means mostly DOK 1; "middle" means mostly DOK 2; "high"
+  means a real share of DOK 3 or 4.
+- Trust: "low" means Solo or Duet; "middle" means Ensemble or Chamber;
+  "high" means Symphony or Virtuoso.
+
+                 Low trust        Middle trust     High trust
+High depth       Thinking Ahead   Growing          Frontier
+Middle depth     Growing          Expected         Underutilizing
+Low depth        Expected         Overpowered      Overpowered
+
+- Frontier: depth and trust matched and growing together. The productive edge.
+- Growing: approaching a match between how much I hand over and how deeply I think.
+- Thinking Ahead: my thinking is ahead of how much I hand over.
+- Expected: how I use AI and how deeply I think fit my current level.
+- Underutilizing: I hand over a lot, for simple questions.
+- Overpowered: a big mismatch: complex delegation for simple tasks.
+- Leveraging: if I'm at high trust and middle depth, but short prompts from
+  me regularly produce a lot, call it Leveraging instead of Underutilizing:
+  my thinking may live in what I've set up, not in each request.
 If no zone fits cleanly, pick the closest and say which part doesn't fit.
 
 Finish with:
